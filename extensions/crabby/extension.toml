@@ -1,0 +1,13 @@
+id = "crabby"
+name = "Crabby"
+version = "0.0.1"
+schema_version = 1
+authors = ["Kazooki123 <mgamerdinge146@gmail.com>"]
+description = "Crabby Programming Language"
+repository = "https://github.com/crabby-lang/crabby"
+
+[language.crabby]
+name = "Crabby"
+file_extensions = ["crab", "cb"]
+grammar = "languages/crabby/grammar.js"
+highlights = "languages/crabby/highlights.scm"
